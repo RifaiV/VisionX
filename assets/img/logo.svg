@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2531.5 574.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #3363db;
+      }
+
+      .cls-3 {
+        font-family: OpenSans-Bold, 'Open Sans';
+        font-size: 500px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(0 428.47)"><tspan class="cls-1" x="0" y="0">Vision</tspan><tspan class="cls-2" x="1516.85" y="0">X</tspan></text>
+  <text/>
+</svg>
