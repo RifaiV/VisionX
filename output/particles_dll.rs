@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1307,7 +1307,7 @@ pub mod cs2_dumper {
                 pub const m_flDesaturation: usize = 0x1800; // CParticleCollectionRendererFloatInput
                 pub const m_flOverbrightFactor: usize = 0x1960; // CParticleCollectionRendererFloatInput
                 pub const m_nHSVShiftControlPoint: usize = 0x1AC0; // int32
-                pub const m_nFogType: usize = 0x1AC4; // ParticleFogType_t
+                pub const m_nFogType: usize = 0x1AC4; // 
                 pub const m_flFogAmount: usize = 0x1AC8; // CParticleCollectionRendererFloatInput
                 pub const m_bTintByFOW: usize = 0x1C28; // bool
                 pub const m_bTintByGlobalLight: usize = 0x1C29; // bool
@@ -3744,7 +3744,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MPropertyCustomEditor
             pub mod CParticleVariableRef {
-                pub const m_variableName: usize = 0x0; // CKV3MemberNameWithStorage
+                pub const m_variableName: usize = 0x0; // 
                 pub const m_variableType: usize = 0x38; // PulseValueType_t
             }
             // Parent: CParticleFunctionOperator
@@ -5847,7 +5847,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             // MParticleCustomFieldDefaultValue
             pub mod CParticleFloatInput {
-                pub const m_nType: usize = 0x10; // 
+                pub const m_nType: usize = 0x10; // ParticleFloatType_t
                 pub const m_nMapType: usize = 0x14; // ParticleFloatMapType_t
                 pub const m_flLiteralValue: usize = 0x18; // float32
                 pub const m_NamedValue: usize = 0x20; // CParticleNamedValueRef

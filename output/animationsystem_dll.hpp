@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #pragma once
 
@@ -4773,10 +4773,10 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace VPhysics2ShapeDef_t {
-                constexpr std::ptrdiff_t m_spheres = 0x0; // 
-                constexpr std::ptrdiff_t m_capsules = 0x18; // CUtlVector<RnCapsuleDesc_t>
-                constexpr std::ptrdiff_t m_hulls = 0x30; // CUtlVector<RnHullDesc_t>
-                constexpr std::ptrdiff_t m_meshes = 0x48; // CUtlVector<RnMeshDesc_t>
+                constexpr std::ptrdiff_t m_spheres = 0x0; // CUtlVector<RnSphereDesc_t>
+                constexpr std::ptrdiff_t m_capsules = 0x18; // 
+                constexpr std::ptrdiff_t m_hulls = 0x30; // 
+                constexpr std::ptrdiff_t m_meshes = 0x48; // 
                 constexpr std::ptrdiff_t m_CollisionAttributeIndices = 0x60; // CUtlVector<uint16>
             }
             // Parent: CNmFloatValueNode__CDefinition
@@ -4813,7 +4813,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace ModelBoneFlexDriverControl_t {
-                constexpr std::ptrdiff_t m_nBoneComponent = 0x0; // ModelBoneFlexComponent_t
+                constexpr std::ptrdiff_t m_nBoneComponent = 0x0; // 
                 constexpr std::ptrdiff_t m_flexController = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_flexControllerToken = 0x10; // uint32
                 constexpr std::ptrdiff_t m_flMin = 0x14; // float32
@@ -5426,8 +5426,8 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmFloatRemapNode__CDefinition {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
-                constexpr std::ptrdiff_t m_inputRange = 0x14; // CNmFloatRemapNode::RemapRange_t
-                constexpr std::ptrdiff_t m_outputRange = 0x1C; // CNmFloatRemapNode::RemapRange_t
+                constexpr std::ptrdiff_t m_inputRange = 0x14; // 
+                constexpr std::ptrdiff_t m_outputRange = 0x1C; // 
             }
             // Parent: None
             // Field count: 2
@@ -5562,7 +5562,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CAnimAttachment {
                 constexpr std::ptrdiff_t m_influenceRotations = 0x0; // Quaternion[3]
-                constexpr std::ptrdiff_t m_influenceOffsets = 0x30; // 
+                constexpr std::ptrdiff_t m_influenceOffsets = 0x30; // VectorAligned[3]
                 constexpr std::ptrdiff_t m_influenceIndices = 0x60; // int32[3]
                 constexpr std::ptrdiff_t m_influenceWeights = 0x6C; // float32[3]
                 constexpr std::ptrdiff_t m_numInfluences = 0x78; // uint8
@@ -5864,7 +5864,7 @@ namespace cs2_dumper {
             namespace VPhysXBodyPart_t {
                 constexpr std::ptrdiff_t m_nFlags = 0x0; // uint32
                 constexpr std::ptrdiff_t m_flMass = 0x4; // float32
-                constexpr std::ptrdiff_t m_rnShape = 0x8; // 
+                constexpr std::ptrdiff_t m_rnShape = 0x8; // VPhysics2ShapeDef_t
                 constexpr std::ptrdiff_t m_nCollisionAttributeIndex = 0x80; // uint16
                 constexpr std::ptrdiff_t m_nReserved = 0x82; // uint16
                 constexpr std::ptrdiff_t m_flInertiaScale = 0x84; // float32

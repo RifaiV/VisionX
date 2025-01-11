@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1228,7 +1228,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flDesaturation = 0x1800; // CParticleCollectionRendererFloatInput
             public const nint m_flOverbrightFactor = 0x1960; // CParticleCollectionRendererFloatInput
             public const nint m_nHSVShiftControlPoint = 0x1AC0; // int32
-            public const nint m_nFogType = 0x1AC4; // ParticleFogType_t
+            public const nint m_nFogType = 0x1AC4; // 
             public const nint m_flFogAmount = 0x1AC8; // CParticleCollectionRendererFloatInput
             public const nint m_bTintByFOW = 0x1C28; // bool
             public const nint m_bTintByGlobalLight = 0x1C29; // bool
@@ -3665,7 +3665,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MPropertyCustomEditor
         public static class CParticleVariableRef {
-            public const nint m_variableName = 0x0; // CKV3MemberNameWithStorage
+            public const nint m_variableName = 0x0; // 
             public const nint m_variableType = 0x38; // PulseValueType_t
         }
         // Parent: CParticleFunctionOperator
@@ -5768,7 +5768,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         // MParticleCustomFieldDefaultValue
         public static class CParticleFloatInput {
-            public const nint m_nType = 0x10; // 
+            public const nint m_nType = 0x10; // ParticleFloatType_t
             public const nint m_nMapType = 0x14; // ParticleFloatMapType_t
             public const nint m_flLiteralValue = 0x18; // float32
             public const nint m_NamedValue = 0x20; // CParticleNamedValueRef

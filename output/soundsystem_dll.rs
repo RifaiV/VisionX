@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -581,7 +581,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAudioMorphData {
-                pub const m_times: usize = 0x0; // CUtlVector<float32>
+                pub const m_times: usize = 0x0; // 
                 pub const m_nameHashCodes: usize = 0x18; // 
                 pub const m_nameStrings: usize = 0x30; // 
                 pub const m_samples: usize = 0x48; // CUtlVector<CUtlVector<float32>>
@@ -887,7 +887,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAudioSentence {
                 pub const m_bShouldVoiceDuck: usize = 0x0; // bool
-                pub const m_RunTimePhonemes: usize = 0x8; // 
+                pub const m_RunTimePhonemes: usize = 0x8; // CUtlVector<CAudioPhonemeTag>
                 pub const m_EmphasisSamples: usize = 0x20; // CUtlVector<CAudioEmphasisSample>
                 pub const m_morphData: usize = 0x38; // CAudioMorphData
             }
@@ -983,7 +983,7 @@ pub mod cs2_dumper {
             pub mod CVoiceContainerSelector {
                 pub const m_mode: usize = 0xC0; // PlayBackMode_t
                 pub const m_soundsToPlay: usize = 0xC8; // CSoundContainerReferenceArray
-                pub const m_fProbabilityWeights: usize = 0x100; // CUtlVector<float32>
+                pub const m_fProbabilityWeights: usize = 0x100; // 
             }
             // Parent: CSosGroupActionSchema
             // Field count: 2

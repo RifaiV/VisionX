@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1030,7 +1030,7 @@ pub mod cs2_dumper {
             pub mod CPulse_RegisterInfo {
                 pub const m_nReg: usize = 0x0; // PulseRuntimeRegisterIndex_t
                 pub const m_Type: usize = 0x8; // CPulseValueFullType
-                pub const m_OriginName: usize = 0x18; // CKV3MemberNameWithStorage
+                pub const m_OriginName: usize = 0x18; // 
                 pub const m_nWrittenByInstruction: usize = 0x50; // int32
                 pub const m_nLastReadByInstruction: usize = 0x54; // int32
             }
@@ -1210,7 +1210,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CPulseRuntimeMethodArg {
-                pub const m_Name: usize = 0x0; // CKV3MemberNameWithStorage
+                pub const m_Name: usize = 0x0; // 
                 pub const m_Description: usize = 0x38; // CUtlString
                 pub const m_Type: usize = 0x40; // CPulseValueFullType
             }

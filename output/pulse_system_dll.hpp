@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #pragma once
 
@@ -1023,7 +1023,7 @@ namespace cs2_dumper {
             namespace CPulse_RegisterInfo {
                 constexpr std::ptrdiff_t m_nReg = 0x0; // PulseRuntimeRegisterIndex_t
                 constexpr std::ptrdiff_t m_Type = 0x8; // CPulseValueFullType
-                constexpr std::ptrdiff_t m_OriginName = 0x18; // CKV3MemberNameWithStorage
+                constexpr std::ptrdiff_t m_OriginName = 0x18; // 
                 constexpr std::ptrdiff_t m_nWrittenByInstruction = 0x50; // int32
                 constexpr std::ptrdiff_t m_nLastReadByInstruction = 0x54; // int32
             }
@@ -1203,7 +1203,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CPulseRuntimeMethodArg {
-                constexpr std::ptrdiff_t m_Name = 0x0; // CKV3MemberNameWithStorage
+                constexpr std::ptrdiff_t m_Name = 0x0; // 
                 constexpr std::ptrdiff_t m_Description = 0x38; // CUtlString
                 constexpr std::ptrdiff_t m_Type = 0x40; // CPulseValueFullType
             }

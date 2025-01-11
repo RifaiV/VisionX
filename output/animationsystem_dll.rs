@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -4865,10 +4865,10 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod VPhysics2ShapeDef_t {
-                pub const m_spheres: usize = 0x0; // 
-                pub const m_capsules: usize = 0x18; // CUtlVector<RnCapsuleDesc_t>
-                pub const m_hulls: usize = 0x30; // CUtlVector<RnHullDesc_t>
-                pub const m_meshes: usize = 0x48; // CUtlVector<RnMeshDesc_t>
+                pub const m_spheres: usize = 0x0; // CUtlVector<RnSphereDesc_t>
+                pub const m_capsules: usize = 0x18; // 
+                pub const m_hulls: usize = 0x30; // 
+                pub const m_meshes: usize = 0x48; // 
                 pub const m_CollisionAttributeIndices: usize = 0x60; // CUtlVector<uint16>
             }
             // Parent: CNmFloatValueNode__CDefinition
@@ -4905,7 +4905,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod ModelBoneFlexDriverControl_t {
-                pub const m_nBoneComponent: usize = 0x0; // ModelBoneFlexComponent_t
+                pub const m_nBoneComponent: usize = 0x0; // 
                 pub const m_flexController: usize = 0x8; // CUtlString
                 pub const m_flexControllerToken: usize = 0x10; // uint32
                 pub const m_flMin: usize = 0x14; // float32
@@ -5518,8 +5518,8 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmFloatRemapNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
-                pub const m_inputRange: usize = 0x14; // CNmFloatRemapNode::RemapRange_t
-                pub const m_outputRange: usize = 0x1C; // CNmFloatRemapNode::RemapRange_t
+                pub const m_inputRange: usize = 0x14; // 
+                pub const m_outputRange: usize = 0x1C; // 
             }
             // Parent: None
             // Field count: 2
@@ -5654,7 +5654,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CAnimAttachment {
                 pub const m_influenceRotations: usize = 0x0; // Quaternion[3]
-                pub const m_influenceOffsets: usize = 0x30; // 
+                pub const m_influenceOffsets: usize = 0x30; // VectorAligned[3]
                 pub const m_influenceIndices: usize = 0x60; // int32[3]
                 pub const m_influenceWeights: usize = 0x6C; // float32[3]
                 pub const m_numInfluences: usize = 0x78; // uint8
@@ -5956,7 +5956,7 @@ pub mod cs2_dumper {
             pub mod VPhysXBodyPart_t {
                 pub const m_nFlags: usize = 0x0; // uint32
                 pub const m_flMass: usize = 0x4; // float32
-                pub const m_rnShape: usize = 0x8; // 
+                pub const m_rnShape: usize = 0x8; // VPhysics2ShapeDef_t
                 pub const m_nCollisionAttributeIndex: usize = 0x80; // uint16
                 pub const m_nReserved: usize = 0x82; // uint16
                 pub const m_flInertiaScale: usize = 0x84; // float32

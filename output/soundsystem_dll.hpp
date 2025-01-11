@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 #pragma once
 
@@ -570,7 +570,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAudioMorphData {
-                constexpr std::ptrdiff_t m_times = 0x0; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_times = 0x0; // 
                 constexpr std::ptrdiff_t m_nameHashCodes = 0x18; // 
                 constexpr std::ptrdiff_t m_nameStrings = 0x30; // 
                 constexpr std::ptrdiff_t m_samples = 0x48; // CUtlVector<CUtlVector<float32>>
@@ -876,7 +876,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CAudioSentence {
                 constexpr std::ptrdiff_t m_bShouldVoiceDuck = 0x0; // bool
-                constexpr std::ptrdiff_t m_RunTimePhonemes = 0x8; // 
+                constexpr std::ptrdiff_t m_RunTimePhonemes = 0x8; // CUtlVector<CAudioPhonemeTag>
                 constexpr std::ptrdiff_t m_EmphasisSamples = 0x20; // CUtlVector<CAudioEmphasisSample>
                 constexpr std::ptrdiff_t m_morphData = 0x38; // CAudioMorphData
             }
@@ -972,7 +972,7 @@ namespace cs2_dumper {
             namespace CVoiceContainerSelector {
                 constexpr std::ptrdiff_t m_mode = 0xC0; // PlayBackMode_t
                 constexpr std::ptrdiff_t m_soundsToPlay = 0xC8; // CSoundContainerReferenceArray
-                constexpr std::ptrdiff_t m_fProbabilityWeights = 0x100; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_fProbabilityWeights = 0x100; // 
             }
             // Parent: CSosGroupActionSchema
             // Field count: 2

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: pulse_system.dll
@@ -1018,7 +1018,7 @@ namespace CS2Dumper.Schemas {
         public static class CPulse_RegisterInfo {
             public const nint m_nReg = 0x0; // PulseRuntimeRegisterIndex_t
             public const nint m_Type = 0x8; // CPulseValueFullType
-            public const nint m_OriginName = 0x18; // CKV3MemberNameWithStorage
+            public const nint m_OriginName = 0x18; // 
             public const nint m_nWrittenByInstruction = 0x50; // int32
             public const nint m_nLastReadByInstruction = 0x54; // int32
         }
@@ -1198,7 +1198,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CPulseRuntimeMethodArg {
-            public const nint m_Name = 0x0; // CKV3MemberNameWithStorage
+            public const nint m_Name = 0x0; // 
             public const nint m_Description = 0x38; // CUtlString
             public const nint m_Type = 0x40; // CPulseValueFullType
         }

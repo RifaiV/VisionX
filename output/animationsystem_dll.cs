@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -4768,10 +4768,10 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class VPhysics2ShapeDef_t {
-            public const nint m_spheres = 0x0; // 
-            public const nint m_capsules = 0x18; // CUtlVector<RnCapsuleDesc_t>
-            public const nint m_hulls = 0x30; // CUtlVector<RnHullDesc_t>
-            public const nint m_meshes = 0x48; // CUtlVector<RnMeshDesc_t>
+            public const nint m_spheres = 0x0; // CUtlVector<RnSphereDesc_t>
+            public const nint m_capsules = 0x18; // 
+            public const nint m_hulls = 0x30; // 
+            public const nint m_meshes = 0x48; // 
             public const nint m_CollisionAttributeIndices = 0x60; // CUtlVector<uint16>
         }
         // Parent: CNmFloatValueNode__CDefinition
@@ -4808,7 +4808,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class ModelBoneFlexDriverControl_t {
-            public const nint m_nBoneComponent = 0x0; // ModelBoneFlexComponent_t
+            public const nint m_nBoneComponent = 0x0; // 
             public const nint m_flexController = 0x8; // CUtlString
             public const nint m_flexControllerToken = 0x10; // uint32
             public const nint m_flMin = 0x14; // float32
@@ -5421,8 +5421,8 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CNmFloatRemapNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
-            public const nint m_inputRange = 0x14; // CNmFloatRemapNode::RemapRange_t
-            public const nint m_outputRange = 0x1C; // CNmFloatRemapNode::RemapRange_t
+            public const nint m_inputRange = 0x14; // 
+            public const nint m_outputRange = 0x1C; // 
         }
         // Parent: None
         // Field count: 2
@@ -5557,7 +5557,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAnimAttachment {
             public const nint m_influenceRotations = 0x0; // Quaternion[3]
-            public const nint m_influenceOffsets = 0x30; // 
+            public const nint m_influenceOffsets = 0x30; // VectorAligned[3]
             public const nint m_influenceIndices = 0x60; // int32[3]
             public const nint m_influenceWeights = 0x6C; // float32[3]
             public const nint m_numInfluences = 0x78; // uint8
@@ -5859,7 +5859,7 @@ namespace CS2Dumper.Schemas {
         public static class VPhysXBodyPart_t {
             public const nint m_nFlags = 0x0; // uint32
             public const nint m_flMass = 0x4; // float32
-            public const nint m_rnShape = 0x8; // 
+            public const nint m_rnShape = 0x8; // VPhysics2ShapeDef_t
             public const nint m_nCollisionAttributeIndex = 0x80; // uint16
             public const nint m_nReserved = 0x82; // uint16
             public const nint m_flInertiaScale = 0x84; // float32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-01-08 01:41:57.579477700 UTC
+// 2025-01-11 20:15:58.595637400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -565,7 +565,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAudioMorphData {
-            public const nint m_times = 0x0; // CUtlVector<float32>
+            public const nint m_times = 0x0; // 
             public const nint m_nameHashCodes = 0x18; // 
             public const nint m_nameStrings = 0x30; // 
             public const nint m_samples = 0x48; // CUtlVector<CUtlVector<float32>>
@@ -871,7 +871,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CAudioSentence {
             public const nint m_bShouldVoiceDuck = 0x0; // bool
-            public const nint m_RunTimePhonemes = 0x8; // 
+            public const nint m_RunTimePhonemes = 0x8; // CUtlVector<CAudioPhonemeTag>
             public const nint m_EmphasisSamples = 0x20; // CUtlVector<CAudioEmphasisSample>
             public const nint m_morphData = 0x38; // CAudioMorphData
         }
@@ -967,7 +967,7 @@ namespace CS2Dumper.Schemas {
         public static class CVoiceContainerSelector {
             public const nint m_mode = 0xC0; // PlayBackMode_t
             public const nint m_soundsToPlay = 0xC8; // CSoundContainerReferenceArray
-            public const nint m_fProbabilityWeights = 0x100; // CUtlVector<float32>
+            public const nint m_fProbabilityWeights = 0x100; // 
         }
         // Parent: CSosGroupActionSchema
         // Field count: 2
